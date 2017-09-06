@@ -1,0 +1,29 @@
+{
+  "name": "slicing_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tpuljak/Slicing_Final.git"
+  },
+  "author": "Toma Puljak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tpuljak/Slicing_Final/issues"
+  },
+  "homepage": "https://github.com/Tpuljak/Slicing_Final#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

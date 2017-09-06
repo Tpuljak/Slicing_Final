@@ -1,0 +1,17 @@
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+html {
+    font-size: 100%;
+}
