@@ -411,11 +411,18 @@ body {
 html {
   font-size: 100%; }
 
-.container {
-  overflow: hidden; }
+.main {
+  height: 450px;
+  background-color: gray; }
+
+.instant-calls {
+  height: 500px;
+  background-color: #A0A0A0; }
 
 .general__header {
-  margin-top: 12px; }
+  padding-top: 20px;
+  height: 50px;
+  font-size: 12px; }
 
 .general__links {
   float: right; }
@@ -426,7 +433,77 @@ html {
 
 .general__logo-container {
   display: inline-block;
-  margin: 0px 10px; }
+  margin: 0px 20px; }
 
 .general__phone-container {
+  display: inline-block; }
+
+.main > .general__text-container {
+  width: 850px;
+  height: 300px;
+  margin: auto; }
+
+.general__button {
+  -webkit-box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.42);
+     -moz-box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.42);
+          box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.42); }
+
+.general__description {
+  display: inline-block;
+  margin-top: 70px; }
+
+.main > .general__text-container > .circled {
+  float: right;
+  margin-right: 50px;
+  margin-top: 140px;
+  padding: 30px; }
+
+.circled {
+  background-color: #0FBAFD;
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+  border-width: 0;
+  padding: 20px;
+  display: inline-block; }
+
+.general__text {
+  color: white; }
+
+.title {
+  font-size: 45px;
+  font-weight: 100; }
+
+.text {
+  margin: 30px 0;
+  font-size: 15px; }
+
+.rounded-rectangle {
+  background-color: pink;
+  font-size: 12px;
+  color: violet;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px;
+  padding: 10px 30px;
+  display: inline-block; }
+
+.learn-more {
+  background-color: white;
+  color: #0FBAFD; }
+
+.instant-calls > .general__image-container {
+  height: 450px;
+  width: 300px;
+  background-image: url("../images/laptop.jpg");
+  -moz-background-size: 100% 100%;
+       background-size: 100% 100%;
+  display: inline-block; }
+
+.instant-calls > .general__text-container {
+  display: inline-block;
+  width: 370px;
+  margin: 0 50px 0 70px; }
+
+.instant-calls > .general__additional-info {
   display: inline-block; }
