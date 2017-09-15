@@ -416,7 +416,23 @@ html {
   background-color: gray; }
 
 .instant-calls {
-  height: 500px;
+  height: 600px;
+  background-color: #A0A0A0; }
+
+.operator-assist {
+  height: 570px;
+  background-color: gray; }
+
+.screen-sharing {
+  height: 920px;
+  background-color: #A0A0A0; }
+
+.brands {
+  height: 375px;
+  background-color: gray; }
+
+.features {
+  height: 1400px;
   background-color: #A0A0A0; }
 
 .general__header {
@@ -492,18 +508,175 @@ html {
   background-color: white;
   color: #0FBAFD; }
 
-.instant-calls > .general__image-container {
-  height: 450px;
+.instant-calls > .laptop {
+  height: 550px;
   width: 300px;
   background-image: url("../images/laptop.jpg");
   -moz-background-size: 100% 100%;
        background-size: 100% 100%;
-  display: inline-block; }
+  float: left;
+  margin-top: 30px; }
 
 .instant-calls > .general__text-container {
-  display: inline-block;
   width: 370px;
-  margin: 0 50px 0 70px; }
+  margin: 70px 50px 0 90px;
+  text-align: justify;
+  float: left; }
 
 .instant-calls > .general__additional-info {
-  display: inline-block; }
+  float: left;
+  margin-top: 210px;
+  width: 220px;
+  font-size: 13px;
+  padding: 85px 40px 65px 30px;
+  line-height: 20px;
+  background-color: cyan;
+  height: 130px;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px; }
+
+.general__text-container > .text {
+  line-height: 27px;
+  text-align: justify;
+  padding-right: 40px; }
+
+.iphone {
+  background-image: url("../images/iphone.png");
+  -moz-background-size: 100% 100%;
+       background-size: 100% 100%;
+  height: 380px;
+  width: 190px;
+  background-repeat: no-repeat;
+  float: right;
+  margin-top: -90px;
+  position: absolute;
+  margin-left: 860px; }
+
+.operator-assist > .general__image-container {
+  height: 450px;
+  width: 450px;
+  background-color: blue;
+  float: left;
+  margin-top: 80px;
+  margin-left: 90px; }
+
+.operator-assist > .general__text-container {
+  width: 500px;
+  float: left;
+  margin-top: 120px;
+  margin-left: 70px; }
+
+.screen-sharing > .general__text-container {
+  margin: 0 auto;
+  padding-top: 90px;
+  width: 680px;
+  text-align: center; }
+
+.screen-sharing > .general__image-container {
+  background-image: url("../images/screen-sharing.jpg");
+  -moz-background-size: 100% 100%;
+       background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100%;
+  margin-top: 10px; }
+
+.brands > .general__text-container {
+  margin: 0 auto;
+  padding-top: 70px;
+  width: 600px; }
+
+.brands > .general__text-container > .title {
+  font-size: 30px;
+  text-align: center; }
+
+.general__brand-logos-container {
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 75px; }
+
+.general__brand-logo {
+  display: inline-block;
+  width: 175px;
+  height: 93px;
+  background-color: white;
+  text-align: center; }
+
+.general__logo-image {
+  margin-left: 10px; }
+
+.features > .general__content-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 100px; }
+
+.features > .general__content-container > .general__text-container {
+  width: 340px; }
+
+.features > .general__content-container > .general__text-container > .title {
+  line-height: 47px; }
+
+.general__feature-row {
+  float: left;
+  margin-right: 70px; }
+
+.first {
+  margin-top: 100px; }
+
+.middle {
+  margin-top: -75px; }
+
+.last {
+  margin-top: -150px;
+  margin-right: 0px; }
+
+.general__feature-card {
+  width: 285px;
+  height: 320px;
+  background-color: blue;
+  -webkit-border-radius: 7px;
+     -moz-border-radius: 7px;
+          border-radius: 7px;
+  margin-bottom: 50px;
+  color: white; }
+
+.general__feature-image {
+  width: 100%;
+  height: 180px;
+  background-color: red;
+  -webkit-border-top-left-radius: 7px;
+     -moz-border-radius-topleft: 7px;
+          border-top-left-radius: 7px;
+  -webkit-border-top-right-radius: 7px;
+     -moz-border-radius-topright: 7px;
+          border-top-right-radius: 7px; }
+
+.general__feature-text {
+  padding: 13px 59px 10px 20px;
+  line-height: 28px;
+  font-size: 14px; }
+
+.general__feature-text > .general__feature-quote {
+  font-style: italic; }
+
+.quote > .general__feature-image {
+  height: 120px; }
+
+.quote > .general__feature-text {
+  padding-right: 100px; }
+
+.general__feature-title {
+  font-size: 16px;
+  font-weight: 600; }
+
+.general__text-container > .title {
+  padding-top: 15px;
+  font-size: 37px;
+  text-align: left; }
+
+.screen-sharing > .general__text-container > .title {
+  padding-top: 30px; }
+
+.screen-sharing > .general__text-container > .general__text {
+  text-align: center; }
