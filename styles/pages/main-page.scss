@@ -220,10 +220,10 @@
 }
 
 .general__feature-card {
-    width: 285px;
+    width: 270px;
     height: 320px;
     background-color: blue;
-    border-radius: 7px;
+    border-radius: 5px;
     margin-bottom: 50px;
     color: white;
 }
@@ -232,8 +232,8 @@
     width: 100%;
     height: 180px;
     background-color: red;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .general__feature-text {
@@ -244,14 +244,21 @@
 
 .general__feature-text > .general__feature-quote {
     font-style: italic;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.general__feature-text > .general__feature-quoted-from {
+    padding-top: 20px;
 }
 
 .quote > .general__feature-image {
-    height: 120px;
+    height: 100px;
 }
 
-.quote > .general__feature-text{
-    padding-right: 100px;
+.quote > .general__feature-text {
+    height: fill;
 }
 
 .general__feature-title {
@@ -259,6 +266,95 @@
     font-weight: 600;
 }
 
+.pricing > .general__content-container {
+    padding-top: 200px;
+    padding-left: 300px;
+}
+
+.pricing > .general__content-container > * {
+    float: left;
+}
+
+.pricing > .general__content-container > .general__text-container {
+    width: 400px;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+.pricing > .general__content-container > .general__text-container > .text {
+    width: 300px;
+}
+
+
+.general__price-card {
+    float: left;
+    height: 300px;
+    width: 270px;
+    background-color: red;
+}
+
+.general__price-card.main {
+    background-color: blue;
+    margin-left: -300px;
+}
+
+.general__price-card.secondary {
+    margin-top: -20px;
+    margin-left: 0px;
+}
+
+.general__price-container {
+    line-height: 50px;
+    padding-left: 55px;
+    padding-top: 30px;
+}
+
+.general__dola-sign {
+    font-size: 35px;
+}
+
+.general__price-number {
+    font-size: 70px;
+}
+
+.general__text.price {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.general__subscription-lenght {
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.price-condition {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.account-setup > .general__content-container > * {
+    float: left;
+}
+
+.account-setup > .general__content-container {
+    padding-top: 60px;
+    padding-left: 200px;
+}
+
+.account-setup > .general__content-container > .general__text-container > .text {
+    font-size: 28px;
+    width: 770px;
+    line-height: 40px;
+    margin-right: 100px;
+}
+
+.account-setup > .general__content-container > .general__button {
+   margin-top: 60px;
+}
+
+.underscored {
+    text-decoration: underline;
+}
 .general__text-container >.title {
     padding-top: 15px;
     font-size: 37px;
