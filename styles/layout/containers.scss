@@ -1,3 +1,12 @@
+body {
+    font-family: Montserrat;
+    font-weight: 200;
+}
+
+.container {
+    background-color: white;
+}
+
 .main {
     height: 450px;
     // background-image: url('../images/background1.jpeg');
@@ -8,27 +17,23 @@
 
 .instant-calls {
     height: 600px;
-    background-color: #A0A0A0;
 }
 
 .operator-assist {
     height: 570px;
-    background-color: gray;
+    background-color: #F9F8FD;
 }
 
 .screen-sharing {
     height: 920px;
-    background-color: #A0A0A0;
 }
 
 .brands {
     height: 375px;
-    background-color: gray;
 }
 
 .features {
     height: 1400px;
-    background-color: #A0A0A0;
 }
 
 .pricing {
@@ -38,10 +43,8 @@
 
 .account-setup {
     height: 250px;
-    background-color: #A0A0A0;
 }
 
 .footer {
     height: 400px;
-    background-color: gray;
 }

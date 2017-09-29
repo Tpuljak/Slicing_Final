@@ -411,49 +411,52 @@ body {
 html {
   font-size: 100%; }
 
+body {
+  font-family: Montserrat;
+  font-weight: 200; }
+
+.container {
+  background-color: white; }
+
 .main {
   height: 450px;
   background-color: gray; }
 
 .instant-calls {
-  height: 600px;
-  background-color: #A0A0A0; }
+  height: 600px; }
 
 .operator-assist {
   height: 570px;
-  background-color: gray; }
+  background-color: #F9F8FD; }
 
 .screen-sharing {
-  height: 920px;
-  background-color: #A0A0A0; }
+  height: 920px; }
 
 .brands {
-  height: 375px;
-  background-color: gray; }
+  height: 375px; }
 
 .features {
-  height: 1400px;
-  background-color: #A0A0A0; }
+  height: 1400px; }
 
 .pricing {
   height: 800px;
   background-color: gray; }
 
 .account-setup {
-  height: 250px;
-  background-color: #A0A0A0; }
+  height: 250px; }
 
 .footer {
-  height: 400px;
-  background-color: gray; }
+  height: 400px; }
 
 .general__header {
   padding-top: 20px;
   height: 50px;
-  font-size: 12px; }
+  font-size: 12px;
+  background-color: transparent; }
 
 .general__links {
-  float: right; }
+  float: right;
+  background-color: transparent; }
 
 .general__link {
   display: inline-block;
@@ -470,11 +473,6 @@ html {
   width: 850px;
   height: 300px;
   margin: auto; }
-
-.general__button {
-  -webkit-box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.42);
-     -moz-box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.42);
-          box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.42); }
 
 .general__description {
   display: inline-block;
@@ -496,11 +494,12 @@ html {
   display: inline-block; }
 
 .general__text {
-  color: white; }
+  color: #829099; }
 
 .title {
   font-size: 45px;
-  font-weight: 100; }
+  font-weight: 100;
+  color: #2D3C47; }
 
 .text {
   margin: 30px 0;
@@ -688,7 +687,7 @@ html {
 
 .general__feature-title {
   font-size: 16px;
-  font-weight: 600; }
+  font-weight: 500; }
 
 .pricing > .general__content-container {
   padding-top: 200px;
@@ -753,7 +752,8 @@ html {
   font-size: 28px;
   width: 770px;
   line-height: 40px;
-  margin-right: 100px; }
+  margin-right: 100px;
+  color: #2D3C47; }
 
 .account-setup > .general__content-container > .general__button {
   margin-top: 60px; }
@@ -768,7 +768,7 @@ html {
 
 .general__footer-text.title {
   font-size: 16px;
-  font-weight: bold; }
+  font-weight: 500; }
 
 .general__page-navigation > * {
   float: left;
@@ -812,3 +812,12 @@ html {
 
 .screen-sharing > .general__text-container > .general__text {
   text-align: center; }
+
+.general__text-container {
+  font-weight: 300; }
+
+.main > .general__text-container > .general__description > .general__text {
+  color: white; }
+
+.pricing > .general__content-container > .general__text-container > .general__text {
+  color: white; }

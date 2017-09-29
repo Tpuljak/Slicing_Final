@@ -1,11 +1,15 @@
+//highlight color 88949D
+
 .general__header {
     padding-top: 20px;
     height: 50px;
     font-size: 12px;
+    background-color: transparent;
 }
 
 .general__links {
     float: right;
+    background-color: transparent;
 }
 
 .general__link {
@@ -26,10 +30,6 @@
     width: 850px;
     height: 300px;
     margin: auto;
-}
-
-.general__button {
-    box-shadow: 0px 0px 38px 0px rgba(0,0,0,0.42);
 }
 
 .general__description {
@@ -53,12 +53,13 @@
 }
 
 .general__text {
-    color: white;
+    color: #829099;
 }
 
 .title {
     font-size: 45px;
     font-weight: 100;
+    color: #2D3C47;
 }
 
 .text {
@@ -263,7 +264,7 @@
 
 .general__feature-title {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .pricing > .general__content-container {
@@ -346,6 +347,7 @@
     width: 770px;
     line-height: 40px;
     margin-right: 100px;
+    color: #2D3C47;
 }
 
 .account-setup > .general__content-container > .general__button {
@@ -364,7 +366,7 @@
 
 .general__footer-text.title {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .general__page-navigation > * {
@@ -418,4 +420,16 @@
 
 .screen-sharing > .general__text-container > .general__text {
     text-align: center;
+}
+
+.general__text-container {
+    font-weight: 300;
+}
+
+.main > .general__text-container > .general__description > .general__text {
+    color: white;
+}
+
+.pricing > .general__content-container > .general__text-container > .general__text{
+    color: white;
 }
