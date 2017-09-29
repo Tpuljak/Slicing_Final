@@ -352,6 +352,57 @@
    margin-top: 60px;
 }
 
+.footer > .general__content-container > * {
+    float: left;
+}
+
+.general__footer-text {
+    font-size: 13px;
+    line-height: 28px;
+    padding: 0;
+}
+
+.general__footer-text.title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.general__page-navigation > * {
+    float: left;
+    width: 260px;
+    margin-top: 0;
+    margin-right: 40px;
+}
+
+.footer > .general__content-container {
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.general__bottom-content {
+    width: 100%;
+}
+
+.general__copyright {
+    font-size: 10px;
+    margin-top: 40px;
+}
+
+.general__social-media-icons {
+    float: right;
+    margin-right: 120px;
+    margin-top: -28px;
+}
+
+.general__social-media-icons > .circled {
+    padding: 14px;
+}
+
+.general__social-media-icons > :last-child {
+    margin-left: 10px;
+}
+
 .underscored {
     text-decoration: underline;
 }
