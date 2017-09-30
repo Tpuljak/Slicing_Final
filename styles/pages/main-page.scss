@@ -5,6 +5,7 @@
     height: 50px;
     font-size: 12px;
     background-color: transparent;
+    color: white;
 }
 
 .general__links {
@@ -45,7 +46,7 @@
 }
 
 .circled {
-    background-color: #0FBAFD;
+    background-color: #00B4DF;
     border-radius: 100%;
     border-width: 0;
     padding: 20px;
@@ -68,17 +69,22 @@
 }
 
 .rounded-rectangle {
-    background-color: pink;
     font-size: 12px;
-    color: violet;
     border-radius: 20px;
     padding: 10px 30px;
     display: inline-block;
 }
 
+.general__button.free-trial {
+    color: #5E4AA6;
+    background-color: #F0EBFD;
+    font-weight: 400;
+}
+
 .learn-more {
     background-color: white;
     color: #0FBAFD;
+    box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.29);
 }
 
 .instant-calls > .laptop {
@@ -104,9 +110,14 @@
     font-size: 13px;
     padding: 85px 40px 65px 30px;
     line-height: 20px;
-    background-color: cyan;
+    background-color: #E5F8FC;
     height: 130px;
     border-radius: 20px;
+}
+
+.general__text-container.behind-image {
+    background-color: #E5F8FC;
+    color: #00B4E1;
 }
 
 .general__text-container > .text {
@@ -130,8 +141,10 @@
 .operator-assist > .general__image-container {
     height: 450px;
     width: 450px;
-    background-color: blue;
     float: left;
+    background-image: url('../images/fillMurray3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
     margin-top: 80px;
     margin-left: 90px;
 }
@@ -141,6 +154,10 @@
     float: left;
     margin-top: 120px;
     margin-left: 70px;
+}
+
+.operator-assist > .general__text-container > .general__button.circled {
+    background-color: #6F61AB;
 }
 
 .screen-sharing > .general__text-container {
@@ -157,6 +174,10 @@
     height: 550px;
     width: 100%;
     margin-top: 10px;
+}
+
+.screen-sharing > .general__text-container > .general__button.circled {
+    background-color: #FEB858;
 }
 
 .brands > .general__text-container {
@@ -222,8 +243,8 @@
 
 .general__feature-card {
     width: 270px;
-    height: 320px;
-    background-color: blue;
+    height: 340px;
+    background-color: #61B947;
     border-radius: 5px;
     margin-bottom: 50px;
     color: white;
@@ -232,9 +253,11 @@
 .general__feature-image {
     width: 100%;
     height: 180px;
-    background-color: red;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    background-image: url('../images/fillMurray2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
 }
 
 .general__feature-text {
@@ -256,15 +279,32 @@
 
 .quote > .general__feature-image {
     height: 100px;
+    background-image: url('../images/fillMurray4.jpg');
+    background-repeat: no-repeat;
+    background-size: 60% 100%; 
+    background-position: center;
 }
 
 .quote > .general__feature-text {
     height: fill;
 }
 
+.quote {
+    background-color: white;
+    color: #2D3C47;
+}
+
 .general__feature-title {
     font-size: 16px;
     font-weight: 500;
+}
+
+.features > .general__content-container > .general__text-container > .general__button.circled {
+    background-color: #61B947;
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
 }
 
 .pricing > .general__content-container {
@@ -291,17 +331,17 @@
     float: left;
     height: 300px;
     width: 270px;
-    background-color: red;
 }
 
 .general__price-card.main {
-    background-color: blue;
+    background-color: #00B4DF;
     margin-left: -300px;
 }
 
 .general__price-card.secondary {
     margin-top: -20px;
     margin-left: 0px;
+    background-color: #8164B0;
 }
 
 .general__price-container {
@@ -339,14 +379,14 @@
 
 .account-setup > .general__content-container {
     padding-top: 60px;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
 .account-setup > .general__content-container > .general__text-container > .text {
     font-size: 28px;
     width: 770px;
     line-height: 40px;
-    margin-right: 100px;
+    margin-right: 180px;
     color: #2D3C47;
 }
 
@@ -357,6 +397,14 @@
 .footer > .general__content-container > * {
     float: left;
 }
+
+.general__icon-container {
+    height: 50px;
+    width: 50px;
+    background-color: #5E15A2;
+    border-radius: 15px; 
+}
+
 
 .general__footer-text {
     font-size: 13px;
@@ -378,8 +426,8 @@
 
 .footer > .general__content-container {
     padding-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 50px;
 }
 
 .general__bottom-content {
@@ -407,6 +455,7 @@
 
 .underscored {
     text-decoration: underline;
+    color: white;
 }
 .general__text-container >.title {
     padding-top: 15px;
@@ -432,4 +481,32 @@
 
 .pricing > .general__content-container > .general__text-container > .general__text{
     color: white;
+}
+
+.general__text.price > * { 
+    color: white;
+}
+
+.general__price-container > * {
+    color: white;
+}
+
+.general__notice > .text {
+    color: white;
+}
+
+.general__text.free-trial {
+    color: white;
+}
+
+.general__button:hover {
+    cursor: pointer;
+}
+
+.underscored:hover {
+    cursor: pointer;
+}
+
+.general__header > *:hover {
+    cursor: pointer;
 }

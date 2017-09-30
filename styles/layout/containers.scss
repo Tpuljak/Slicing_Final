@@ -7,12 +7,11 @@ body {
     background-color: white;
 }
 
-.main {
+.container.main {
     height: 450px;
-    // background-image: url('../images/background1.jpeg');
-    // background-repeat: no-repeat;
-    // background-size: 100% 100%;
-    background-color: gray;
+    background-image: url('../images/fillMurray1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .instant-calls {
@@ -33,12 +32,15 @@ body {
 }
 
 .features {
-    height: 1400px;
+    height: 1500px;
+    background-color: #F9F9F9;
 }
 
 .pricing {
     height: 800px;
-    background-color: gray;
+    background-image: url('../images/fillMurray1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .account-setup {
