@@ -1,5 +1,3 @@
-//highlight color 88949D
-
 .general__header {
     padding-top: 20px;
     height: 50px;
@@ -129,12 +127,10 @@
 .iphone {
     background-image: url('../images/iphone.png');
     background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 380px;
     width: 190px;
-    background-repeat: no-repeat;
-    float: right;
     margin-top: -90px;
-    position: absolute;
     margin-left: 860px;
 }
 
@@ -481,6 +477,28 @@
 
 .pricing > .general__content-container > .general__text-container > .general__text{
     color: white;
+}
+
+.headphones {
+    background-image: url('../images/headphones.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 350px;
+    margin-left: 30px;
+}
+
+.general__image-wrapper {
+    margin-left: 1070px;
+    margin-top: -150px;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.floated-image {
+    float: right;
+    position: absolute;
 }
 
 .general__text.price > * { 
