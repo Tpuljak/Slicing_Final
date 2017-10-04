@@ -1516,6 +1516,132 @@
     .general__brand-logos-container {
         margin-left: 30px;
     }
+
+    .screen-sharing > .general__text-container > .general__text.text {
+        width: 300px;
+    }
+    
+    .screen-sharing > .general__text-container > .general__button.circled {
+        margin-bottom: 20px;
+    }
+
+    .screen-sharing > .general__text-container {
+        width: 300px;
+    }
+
+    .screen-sharing {
+        height: 700px;
+    }
+}
+
+@media(max-width: 400px) {
+    .pricing > .general__content-container > .general__text-container {
+        margin-right: 40px;
+    }
+
+    .account-setup > .general__content-container > .general__button {
+        margin-left: 140px;
+    }
+}
+
+@media(max-width: 390px) {
+    .general__brand-logos-container {
+        margin-left: 20px;
+    }
+
+    .main > .general__text-container {
+        margin-left: 90px;
+    }
+}
+
+@media(max-width: 375px) {
+    .general__brand-logos-container {
+        margin-left: 0px;
+    }
+
+    .pricing > .general__content-container > .general__cards-container {
+        margin-left: 60px;
+    }
+
+    .footer > .general__content-container {
+        margin-left: 100px;
+    }
+}
+
+@media(max-width: 355px) {
+    .general__brand-logos-container {
+        width: 175px;
+        margin: 0 auto;
+    }
+
+    .brands {
+        height: 750px;
+    }
+}
+
+@media(max-width: 340px) {
+    .main > .general__text-container {
+        margin-left: 70px;
+    }
+
+    .features > .general__content-container {
+        padding-left: 0px;
+    }
+
+    .general__price-card {
+        height: 200px;
+        width: 200px;
+        font-size: 12px;
+    }
+
+    .pricing > .general__content-container > .general__cards-container {
+        margin-left: 50px;
+    }
+
+    .general__price-container {
+        line-height: 35px;
+        padding-left: 50px;
+    }
+
+    .pricing > .general__content-container > .general__cards-container > .general__price-card.main {
+        margin-left: -20px;
+        margin-top: -180px;
+    }
+
+    .pricing > .general__content-container > .general__text-container {
+        margin-right: 20px;
+    }
+
+    .pricing {
+        height: 560px;
+    }
+}
+
+@media(max-width: 320px) {
+    .general__links > * {
+        margin-bottom: 10px;
+    }
+
+    .main > .general__text-container {
+        margin-left: 60px;
+    }
+
+    .general__text.title {
+        font-size: 25px;
+    }
+
+    .pricing > .general__content-container > .general__text-container {
+        margin-right: 0px;
+    }
+
+    .account-setup > .general__content-container > .general__button {
+        margin-left: 85px;
+    }
+
+    .footer > .general__content-container > .general__page-navigation > .general__catchphrase {
+        margin: 0px;
+        margin-left: 60px;
+    }
 }
 
 .last {
